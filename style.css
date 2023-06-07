@@ -1,0 +1,53 @@
+body {
+    background-color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.teste_color {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.engloba {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+.teste_titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.botao {
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    transition: .3s;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.teste_texto-change{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
